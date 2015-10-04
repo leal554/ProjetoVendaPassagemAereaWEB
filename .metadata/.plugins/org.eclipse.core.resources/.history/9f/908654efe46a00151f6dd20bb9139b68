@@ -1,4 +1,4 @@
-package com.vpa.data;
+package com.vpa.model;
 
 import java.sql.Connection;
 import java.sql.SQLException;

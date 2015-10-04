@@ -5,7 +5,8 @@ import java.util.ResourceBundle;
 
 import javax.swing.JOptionPane;
 
-import com.vpa.data.AeronaveDAO;
+import com.vpa.model.AeronaveDAO;
+import com.vpa.view.Menu;
 
 public class Aeronave 
 {

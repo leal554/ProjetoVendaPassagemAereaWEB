@@ -24,6 +24,8 @@ import java.util.ResourceBundle.Control;
 
 import javax.swing.JOptionPane;
 
+import com.vpa.view.*;
+
 public class LoginControle 
 {
 
@@ -49,12 +51,12 @@ public class LoginControle
 				{	
 					if(Administrador.equals(us.getString(tipoUsuario)))
 					{
-						//Menu m = new Menu();
+						Menu m = new Menu();
 						return;
 					}
 					if(Usuario.equals(us.getString(tipoUsuario)))
 					{
-						//MenuPassagem mp = new MenuPassagem();
+						MenuPassagem mp = new MenuPassagem();
 						return;
 					}
 				} 
@@ -75,7 +77,7 @@ public class LoginControle
 			{
 				JOptionPane.showMessageDialog(null,bn.getString("classe.loginControle.erro1"), "Erro",JOptionPane.WARNING_MESSAGE);
 				contador = 1;
-				//Login l = new Login();
+				Login l = new Login();
 				return;
 			}
 		}	

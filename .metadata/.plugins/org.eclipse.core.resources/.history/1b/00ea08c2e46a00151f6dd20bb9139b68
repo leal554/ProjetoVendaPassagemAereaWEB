@@ -75,7 +75,7 @@ public class LoginControle
 			{
 				JOptionPane.showMessageDialog(null,bn.getString("classe.loginControle.erro1"), "Erro",JOptionPane.WARNING_MESSAGE);
 				contador = 1;
-				//Login l = new Login();
+				Login l = new Login();
 				return;
 			}
 		}	

@@ -9,8 +9,8 @@ import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
 
-import com.vpa.data.ClienteDAO;
-import com.vpa.data.PassagemDAO;
+import com.vpa.model.ClienteDAO;
+import com.vpa.model.PassagemDAO;
 
 public class Passagem 
 {

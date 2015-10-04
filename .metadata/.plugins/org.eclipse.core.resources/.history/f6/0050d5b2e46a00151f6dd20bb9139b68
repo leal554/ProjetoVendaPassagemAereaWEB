@@ -5,7 +5,7 @@ import java.util.ResourceBundle;
 
 import javax.swing.JOptionPane;
 
-import com.vpa.data.ClienteDAO;
+import com.vpa.model.ClienteDAO;
 
 public class Cliente 
 {

@@ -1,4 +1,4 @@
-package com.vpa.data;
+package com.vpa.model;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -9,7 +9,7 @@ import java.util.ResourceBundle;
 
 import javax.swing.JOptionPane;
 
-import com.vpa.data.ConexaoDAO;
+import com.vpa.model.ConexaoDAO;
 
 public class ClienteDAO 
 {

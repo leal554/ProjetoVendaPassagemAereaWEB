@@ -2,7 +2,7 @@ package com.vpa.model;
 
 import java.util.ArrayList;
 
-import com.vpa.data.VooDAO;
+import com.vpa.model.VooDAO;
 
 public class Voo 
 {

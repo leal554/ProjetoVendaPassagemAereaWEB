@@ -1,4 +1,4 @@
-package com.vpa.data;
+package com.vpa.model;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -10,8 +10,8 @@ import java.util.ResourceBundle;
 
 import javax.swing.JOptionPane;
 
-import com.vpa.model.Passagem;
-import com.vpa.model.Transferencia;
+import com.vpa.controle.Passagem;
+import com.vpa.controle.Transferencia;
 
 public class TransferenciaDAO 
 {
