@@ -19,3 +19,5 @@
 0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:57:26 -0300] "GET /ProjetoVendaPassagemAereaWEB/ HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:57:26 -0300] "GET /ProjetoVendaPassagemAereaWEB/.bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1112
 0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:57:35 -0300] "GET /ProjetoVendaPassagemAereaWEB/img/sunset.jpg HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:58:01 -0300] "GET /ProjetoVendaPassagemAereaWEB/index.jsp HTTP/1.1" 200 1173
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:58:01 -0300] "GET /ProjetoVendaPassagemAereaWEB/.bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1112
