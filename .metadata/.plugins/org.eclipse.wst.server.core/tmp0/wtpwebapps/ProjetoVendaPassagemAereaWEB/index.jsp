@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Calculadora</title>
+<title>Passagem Aerea WEB</title>
  
  <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css" />
  <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.min.css" />
@@ -32,34 +32,5 @@
       </form>
 
     </div>
-	<h2>Página Principal</h2>
-
-	<form>
-		<p>Escolha o que quer fazer!</p>
-		<p></p>
-	</form>
-
-	<form action="somar.html">
-		<input type="submit" value="Somar">
-	</form>
-	</p>
-	<p>
-	<form action="subtrair.html">
-		<input type="submit" value="Subtrair">
-	</form>
-	</p>
-	<p>
-	<form action="multiplicar.html">
-		<input type="submit" value="Multiplicar">
-	</form>
-	</p>
-	<p>
-	<form action="dividir.html">
-		<input type="submit" value="Dividir">
-	</form>
-	</p>
-
-
-	<img src="./img/sunset.jpg" height="50" width="300" alt="imagem" />
 </body>
 </html>
