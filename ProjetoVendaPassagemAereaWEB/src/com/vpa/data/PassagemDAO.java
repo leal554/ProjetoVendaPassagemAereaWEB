@@ -6,8 +6,6 @@ import java.sql.Statement;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-import javax.swing.JOptionPane;
-
 import com.vpa.model.Passagem;
 
 public class PassagemDAO 
@@ -32,11 +30,11 @@ public class PassagemDAO
             				+ p.getAcento()+"')");
             con.close();
             stm.close();
-            JOptionPane.showMessageDialog(null, bn.getString("dao.passagem.erro1") , "Cadastrado", JOptionPane.INFORMATION_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.passagem.erro1") , "Cadastrado", JOptionPane.INFORMATION_MESSAGE);
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.passagem.erro2") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.passagem.erro2") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
     }
 
@@ -51,11 +49,11 @@ public class PassagemDAO
             stm.executeUpdate("INSERT INTO `passagem`(`idCliente`) " + " VALUES ('"+Email+"')");
             con.close();
             stm.close();
-            JOptionPane.showMessageDialog(null, bn.getString("dao.passagem.erro3") , "Cadastrado", JOptionPane.INFORMATION_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.passagem.erro3") , "Cadastrado", JOptionPane.INFORMATION_MESSAGE);
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.passagem.erro2") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.passagem.erro2") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
     }
     

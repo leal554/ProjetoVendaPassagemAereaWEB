@@ -3,8 +3,6 @@ package com.vpa.model;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-import javax.swing.JOptionPane;
-
 import com.vpa.data.AeronaveDAO;
 
 public class Aeronave 
@@ -27,7 +25,7 @@ public class Aeronave
 		}
 		else 
 		{
-			JOptionPane.showMessageDialog(null, bn.getString("classe.aeronave.erro1"));
+			//JOptionPane.showMessageDialog(null, bn.getString("classe.aeronave.erro1"));
 			return;
 		}
 		

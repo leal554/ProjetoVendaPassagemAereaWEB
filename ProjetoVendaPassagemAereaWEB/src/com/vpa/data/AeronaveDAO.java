@@ -8,8 +8,6 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-import javax.swing.JOptionPane;
-
 import com.vpa.data.ConexaoDAO;
 
 public class AeronaveDAO 
@@ -30,11 +28,11 @@ public class AeronaveDAO
             stm.executeUpdate("INSERT INTO `aeronave`(`numAero`, `numAcent`,`emUso`) VALUES ('"+numAero+"','"+ numAcent+"','0')");
             con.close();
             stm.close();
-            JOptionPane.showMessageDialog(null, bn.getString("dao.aeronaveDAO.mensagem1"), "Cadastrado", JOptionPane.INFORMATION_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.aeronaveDAO.mensagem1"), "Cadastrado", JOptionPane.INFORMATION_MESSAGE);
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.aeronaveDAO.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.aeronaveDAO.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
     }
     
@@ -54,7 +52,7 @@ public class AeronaveDAO
             }
             if (result == 0) 
             {
-                JOptionPane.showMessageDialog(null, bn.getString("dao.aeronaveDAO.erro2"));
+                //JOptionPane.showMessageDialog(null, bn.getString("dao.aeronaveDAO.erro2"));
                 arrrayAeronaves.add(bn.getString("dao.aeronaveDAO.array"));
             }
             con.close();
@@ -63,7 +61,7 @@ public class AeronaveDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.aeronaveDAO.erro3") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.aeronaveDAO.erro3") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
 		return arrrayAeronaves;
     }

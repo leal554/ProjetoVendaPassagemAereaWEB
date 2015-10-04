@@ -8,8 +8,6 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-import javax.swing.JOptionPane;
-
 import com.vpa.data.ConexaoDAO;
 
 public class VooDAO 
@@ -35,7 +33,7 @@ public class VooDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro1")  + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro1")  + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
     }
     
@@ -63,7 +61,7 @@ public class VooDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null,  bn.getString("dao.voo.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+           // JOptionPane.showMessageDialog(null,  bn.getString("dao.voo.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
 		return voo;
     }
@@ -93,7 +91,7 @@ public class VooDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+           // JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
 		return dia;
     }
@@ -123,7 +121,7 @@ public class VooDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
 		return horaSaida;
     }
@@ -153,7 +151,7 @@ public class VooDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
 		return horaChegada;
     }
@@ -175,7 +173,7 @@ public class VooDAO
             }
             if (result == 0) 
             {
-            	JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro5"), "Erro", JOptionPane.ERROR_MESSAGE);
+            	//JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro5"), "Erro", JOptionPane.ERROR_MESSAGE);
             }
             con.close();
             stm.close();
@@ -183,7 +181,7 @@ public class VooDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
 		return numeroVoo;
     }
@@ -205,7 +203,7 @@ public class VooDAO
             }
             if (result == 0) 
             {
-            	JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro6"), "Erro", JOptionPane.ERROR_MESSAGE);
+            	//JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro6"), "Erro", JOptionPane.ERROR_MESSAGE);
             }
             con.close();
             stm.close();
@@ -213,7 +211,7 @@ public class VooDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.voo.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
 		return numeroAeronave;
     }

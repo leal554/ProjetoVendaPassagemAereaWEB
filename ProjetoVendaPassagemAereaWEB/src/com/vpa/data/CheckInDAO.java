@@ -8,8 +8,6 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-import javax.swing.JOptionPane;
-
 import com.vpa.model.CheckIn;
 import com.vpa.model.Transferencia;
 
@@ -32,11 +30,11 @@ public class CheckInDAO
             stm.executeUpdate("UPDATE `passagem` SET `checkIn`= '1'  WHERE `idCliente` = '"+c.getIdCliente()+"' AND `id` = '"+c.getPassagem()+"'");
             stm.close();
             
-            JOptionPane.showMessageDialog(null, bn.getString("dao.checkIn.mensagem1"));
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.checkIn.mensagem1"));
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.checkIn.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.checkIn.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
     }
     
@@ -64,7 +62,7 @@ public class CheckInDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.checkIn.erro3") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.checkIn.erro3") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
 		return arrayCheck;
     }

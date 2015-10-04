@@ -1,17 +1,5 @@
 package com.vpa.model;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.Date;
-import java.util.ArrayList;
-
-import javax.swing.JOptionPane;
-
-import com.vpa.data.ClienteDAO;
-import com.vpa.data.PassagemDAO;
-
 public class Passagem 
 {
 	private static double pesoBagagem;

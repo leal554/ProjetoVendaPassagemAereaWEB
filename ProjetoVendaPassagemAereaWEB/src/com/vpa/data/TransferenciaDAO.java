@@ -8,9 +8,6 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-import javax.swing.JOptionPane;
-
-import com.vpa.model.Passagem;
 import com.vpa.model.Transferencia;
 
 public class TransferenciaDAO 
@@ -33,11 +30,11 @@ public class TransferenciaDAO
             stm.executeUpdate("UPDATE `passagem` SET `idCliente`= '"+t.getIdCliente2()+"' WHERE `idCliente` = '"+t.getIdCliente()+"' AND `id` = '"+t.getPassagem()+"'");
             stm.close();
             
-            JOptionPane.showMessageDialog(null, bn.getString("dao.transferencia.mensagem1") + t.getIdCliente2());
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.transferencia.mensagem1") + t.getIdCliente2());
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.transferencia.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.transferencia.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
     }
     
@@ -65,7 +62,7 @@ public class TransferenciaDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.transferencia.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+           // JOptionPane.showMessageDialog(null, bn.getString("dao.transferencia.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
 		return passagens;
     }

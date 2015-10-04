@@ -7,8 +7,6 @@ import java.sql.Statement;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-import javax.swing.JOptionPane;
-
 import com.vpa.data.ConexaoDAO;
 
 public class ClienteDAO 
@@ -33,11 +31,11 @@ public class ClienteDAO
             				+ "VALUES ('"+nome+"','"+ rg+"','"+ cpf+"','"+ endereco+"','"+ cep+"','"+ srSraSr+"','"+ estadoCivil+"','"+ emprego+"','"+ email+"','"+ senha+"')");
             con.close();
             stm.close();
-            JOptionPane.showMessageDialog(null,  bn.getString("dao.cliente.mensagem1"), "Cadastrado", JOptionPane.INFORMATION_MESSAGE);
+            //JOptionPane.showMessageDialog(null,  bn.getString("dao.cliente.mensagem1"), "Cadastrado", JOptionPane.INFORMATION_MESSAGE);
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
     }
     
@@ -59,7 +57,7 @@ public class ClienteDAO
             }
             if (result == 0) 
             {
-                JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro2"), "Informação", JOptionPane.INFORMATION_MESSAGE);
+                //JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro2"), "Informação", JOptionPane.INFORMATION_MESSAGE);
             }
             con.close();
             stm.close();
@@ -72,7 +70,7 @@ public class ClienteDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null,  bn.getString("dao.cliente.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null,  bn.getString("dao.cliente.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
             login = false;
         }
 		return login;
@@ -97,7 +95,7 @@ public class ClienteDAO
             }
             if (result == 0) 
             {
-                JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro2"), "Informação", JOptionPane.INFORMATION_MESSAGE);
+                //JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro2"), "Informação", JOptionPane.INFORMATION_MESSAGE);
             }
             con.close();
             stm.close();
@@ -105,7 +103,7 @@ public class ClienteDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
 		return cliente;
     }
@@ -129,7 +127,7 @@ public class ClienteDAO
             }
             if (result == 0) 
             {
-                JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro3"), "Informação", JOptionPane.INFORMATION_MESSAGE);
+                //JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro3"), "Informação", JOptionPane.INFORMATION_MESSAGE);
             }
             con.close();
             stm.close();
@@ -142,7 +140,7 @@ public class ClienteDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
             login = false;
         }
 		return login;
@@ -166,7 +164,7 @@ public class ClienteDAO
             }
             if (result == 0) 
             {
-                JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro2"), "Informação", JOptionPane.INFORMATION_MESSAGE);
+                //JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro2"), "Informação", JOptionPane.INFORMATION_MESSAGE);
             }
             con.close();
             stm.close();
@@ -174,7 +172,7 @@ public class ClienteDAO
         } 
         catch (SQLException e) 
         {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
 		return id;
     }

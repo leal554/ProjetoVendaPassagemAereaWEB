@@ -6,8 +6,6 @@ import java.sql.SQLException;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-import javax.swing.JOptionPane;
-
 public class ConexaoDAO 
 {
 	private Connection con;
@@ -26,7 +24,7 @@ public class ConexaoDAO
             con = DriverManager.getConnection(url, user, password);
         } 
         catch (ClassNotFoundException | SQLException ex) {
-            JOptionPane.showMessageDialog(null, bn.getString("dao.conexao.erro1") + ex.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+            //JOptionPane.showMessageDialog(null, bn.getString("dao.conexao.erro1") + ex.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
         }
 		return con;
     }

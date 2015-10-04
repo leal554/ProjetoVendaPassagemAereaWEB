@@ -1,10 +1,5 @@
 package com.vpa.model;
 
-import java.util.Locale;
-import java.util.ResourceBundle;
-
-import javax.swing.JOptionPane;
-
 import com.vpa.data.ClienteDAO;
 
 public class Cliente 
@@ -20,7 +15,6 @@ public class Cliente
 	private String email;
 	private String senha;
 	private boolean clienteLogin;
-	private ResourceBundle bn = ResourceBundle.getBundle("messages", Locale.getDefault());
    	
    	public Cliente(){}
    	
@@ -46,7 +40,7 @@ public class Cliente
    		else
    		{
    			
-   			JOptionPane.showMessageDialog(null,bn.getString("classe.cliente.erro1") ,"Erro",JOptionPane.WARNING_MESSAGE);
+   			//JOptionPane.showMessageDialog(null,bn.getString("classe.cliente.erro1") ,"Erro",JOptionPane.WARNING_MESSAGE);
    		}
    	}
    	
