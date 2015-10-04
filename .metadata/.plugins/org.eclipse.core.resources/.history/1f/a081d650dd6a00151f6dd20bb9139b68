@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ProjetoVendaPassagemAereaWEB">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <property name="context-root" value="ProjetoVendaPassagemAereaWEB"/>
+        <property name="java-output-path" value="/ProjetoVendaPassagemAereaWEB/build/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,17 @@
+127.0.0.1 - - [04/Oct/2015:18:21:48 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:21:48 -0300] "GET /ProjetoVendaPassagemAereaWEB/ HTTP/1.1" 200 718
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:21:49 -0300] "GET /ProjetoVendaPassagemAereaWEB/img/sunset.jpg HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:22:29 -0300] "GET /ProjetoVendaPassagemAereaWEB/index.jsp HTTP/1.1" 200 719
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:22:29 -0300] "GET /ProjetoVendaPassagemAereaWEB/img/sunset.jpg HTTP/1.1" 404 1080
+127.0.0.1 - - [04/Oct/2015:18:32:52 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:32:53 -0300] "GET /ProjetoVendaPassagemAereaWEB/index.jsp HTTP/1.1" 200 719
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:32:53 -0300] "GET /ProjetoVendaPassagemAereaWEB/img/sunset.jpg HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:32:54 -0300] "GET /ProjetoVendaPassagemAereaWEB/somar.html HTTP/1.1" 404 1072
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:38:57 -0300] "GET /ProjetoVendaPassagemAereaWEB/index.jsp HTTP/1.1" 200 958
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:38:57 -0300] "GET /ProjetoVendaPassagemAereaWEB/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 122540
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:38:57 -0300] "GET /ProjetoVendaPassagemAereaWEB/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 23357
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:38:57 -0300] "GET /ProjetoVendaPassagemAereaWEB/.bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1112
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:38:57 -0300] "GET /ProjetoVendaPassagemAereaWEB/img/sunset.jpg HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:39:33 -0300] "GET /ProjetoVendaPassagemAereaWEB/index.jsp HTTP/1.1" 200 1718
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:39:33 -0300] "GET /ProjetoVendaPassagemAereaWEB/img/sunset.jpg HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [04/Oct/2015:18:39:33 -0300] "GET /ProjetoVendaPassagemAereaWEB/.bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1112
