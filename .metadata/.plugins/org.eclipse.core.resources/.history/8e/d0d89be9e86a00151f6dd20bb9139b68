@@ -1,0 +1,13 @@
+package com.vpa.model;
+
+public class LoginControle 
+{
+	private String email;
+	private String senha;
+	
+	public LoginControle(String email, String senha)
+	{
+		
+		
+	}
+}

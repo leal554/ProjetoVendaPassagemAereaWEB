@@ -1,16 +1,20 @@
 package com.vpa.controle;
 
 import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.vpa.model.LoginControle;
+
 /**
  * Servlet implementation class Login
  */
-@WebServlet("/Login")
+@WebServlet("/Login.do")
 public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -33,9 +37,42 @@ public class Login extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		boolean login = false;
+		String email = request.getParameter("email");
+		String senha = request.getParameter("senha");
+		
+		LoginControle l = new LoginControle();
+		login = l.verificaSenha(email, senha);
+		
+		if(login == true)
+		{
+			RequestDispatcher view = request.getRequestDispatcher("Home.jsp");
+			view.forward(request, response);
+		}
+		else
+		{
+			RequestDispatcher view = request.getRequestDispatcher("index.jsp");
+			view.forward(request, response);
+		}
+		
+		
 	}
+	
+	/*request.setCharacterEncoding("utf-8");
+
+	//String sn1 = request.getParameter("vr1");
+	//String sn2 = request.getParameter("vr2");
+
+	double n1 = Integer.parseInt(request.getParameter("vr1").trim());
+	double n2 = Integer.parseInt(request.getParameter("vr2").trim());
+	
+	Divisao d = new Divisao(n1,n2);
+	double resultado = d.getDresultado();
+
+	request.setAttribute("resultado", resultado);
+	RequestDispatcher view = request.getRequestDispatcher("resultado.jsp");
+	view.forward(request, response);*/
 
 }

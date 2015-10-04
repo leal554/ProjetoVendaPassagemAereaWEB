@@ -17,15 +17,15 @@
 
  <div class="container">
 
-      <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <form class="form-signin" method="post" action="Login.do">
+        <h2 class="form-signin-heading">Venda de Passagem WEB</h2>
+        <label for="inputEmail" class="sr-only">Email</label>
+        <input name="email" type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input name="senha" type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
         <div class="checkbox">
           <label>
-            <input type="checkbox" value="remember-me"> Remember me
+            <input type="checkbox" value="remember-me"> Lembrar
           </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>

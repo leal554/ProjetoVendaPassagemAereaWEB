@@ -1,0 +1,14 @@
+package com.vpa.model;
+
+public class LoginControle 
+{
+	private String email;
+	private String senha;
+
+	public LoginControle(){}
+	
+	public boolean verificaSenha(String email, String senha)
+	{
+		return true;
+	}
+}
