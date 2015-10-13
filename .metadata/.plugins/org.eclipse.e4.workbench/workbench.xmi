@@ -259,7 +259,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NiVQwGrdEeW125tdpD55OA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_qjbcEGsXEeW7Lrc-4vfRAQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_NWIoNGrdEeW125tdpD55OA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_DJ1dgG6vEeWz-7XxvZ4kPg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_NWIoNGrdEeW125tdpD55OA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NiVQwWrdEeW125tdpD55OA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -289,7 +289,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NiVQxWrdEeW125tdpD55OA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_qjd4UmsXEeW7Lrc-4vfRAQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_NWIn3WrdEeW125tdpD55OA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_DJ35wG6vEeWz-7XxvZ4kPg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_NWIn3WrdEeW125tdpD55OA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NiVQxmrdEeW125tdpD55OA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2578,6 +2578,15 @@
   <commands xmi:id="_Ng67gWrdEeW125tdpD55OA" elementId="AUTOGEN:::variableViewActions/org.eclipse.wst.jsdt.debug.ui.variableview.show.this" commandName="Show 'this' variable" description="Show or hide the this variable" category="_NWChVmrdEeW125tdpD55OA"/>
   <commands xmi:id="_Ng67gmrdEeW125tdpD55OA" elementId="AUTOGEN:::variableViewActions/org.eclipse.wst.jsdt.debug.ui.variableview.show.prototypes" commandName="Show proto variables" description="Show or hide proto variables" category="_NWChVmrdEeW125tdpD55OA"/>
   <commands xmi:id="_Ng67g2rdEeW125tdpD55OA" elementId="AUTOGEN:::org.eclipse.ui.articles.action.contribution.view/org.eclipse.wst.wsi.ui.internal.actions.actionDelegates.ValidateWSIProfileActionDelegate" commandName="WS-I Profile Validator" description="Validate WS-I Message Log File" category="_NWChVmrdEeW125tdpD55OA"/>
+  <commands xmi:id="_C3GuwW6vEeWz-7XxvZ4kPg" elementId="org.eclipse.recommenders.utils.rcp.commands.openBrowserDialog" commandName="Open a Web browser" category="_NWChVmrdEeW125tdpD55OA">
+    <parameters xmi:id="_C3Guwm6vEeWz-7XxvZ4kPg" elementId="org.eclipse.recommenders.utils.rcp.linkContribution.href" name="URI" optional="false"/>
+  </commands>
+  <commands xmi:id="_C3Guw26vEeWz-7XxvZ4kPg" elementId="org.eclipse.recommenders.utils.rcp.commands.openBrowser" commandName="Open a Web browser" category="_NWChVmrdEeW125tdpD55OA">
+    <parameters xmi:id="_C3GuxG6vEeWz-7XxvZ4kPg" elementId="org.eclipse.recommenders.utils.rcp.linkContribution.href" name="URI" optional="false"/>
+  </commands>
+  <commands xmi:id="_C3HV0G6vEeWz-7XxvZ4kPg" elementId="org.eclipse.recommenders.utils.rcp.commands.openPreferences" commandName="Open the preferences dialog" category="_NWChVmrdEeW125tdpD55OA">
+    <parameters xmi:id="_C3HV0W6vEeWz-7XxvZ4kPg" elementId="org.eclipse.recommenders.utils.rcp.linkContribution.href" name="URI" optional="false"/>
+  </commands>
   <addons xmi:id="_NVu_NmrdEeW125tdpD55OA" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_NVu_N2rdEeW125tdpD55OA" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_NVu_OGrdEeW125tdpD55OA" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
