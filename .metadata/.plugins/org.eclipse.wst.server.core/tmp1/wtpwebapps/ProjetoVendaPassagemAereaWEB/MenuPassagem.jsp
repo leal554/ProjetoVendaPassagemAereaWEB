@@ -8,25 +8,23 @@
 <jsp:include page="/layout.jsp" />
 </head>
 <body>
-
-    
     <div class="container">
 		<div class="jumbotron">
 		<h1></h1>
 			<p>
-			<a class="btn btn-lg btn-primary" href="./LoginComprarPassagem.jsp" role="button">Comprar Passagem</a>
+			<a class="btn btn-lg btn-primary" href="./LoginComprarPassagem.jsp" >Comprar Passagem</a>
 			</p>
 			<p>
-			<a class="btn btn-lg btn-primary" href="./CadastrarCliente.jsp" role="button">Novo Cliente</a>
+			<a class="btn btn-lg btn-primary" href="./CadastrarCliente.jsp" >Novo Cliente</a>
 			</p>
 			<p>
-			<a class="btn btn-lg btn-primary" href="./ConsultarCliente.jsp" role="button">Consultar Cliente</a>
+			<a class="btn btn-lg btn-primary" href="./ConsultarCliente.jsp" >Consultar Cliente</a>
 			</p>
 			<p>
-			<a class="btn btn-lg btn-primary" href="./LoginTransferencia.jsp" role="button">Transferir Passagem</a>
+			<a class="btn btn-lg btn-primary" href="./LoginTransferencia.jsp" >Transferir Passagem</a>
 			</p>
 			<p>
-			<a class="btn btn-lg btn-primary" href="./LoginCheckIn.jsp" role="button">Checkin</a>
+			<a class="btn btn-lg btn-primary" href="./LoginCheckIn.jsp" >Checkin</a>
 			</p>
 		</div>
 	</div>

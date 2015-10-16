@@ -3,8 +3,6 @@ package com.vpa.data;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.Locale;
-import java.util.ResourceBundle;
 
 public class ConexaoDAO 
 {
@@ -14,7 +12,6 @@ public class ConexaoDAO
     public String user = "root";
     public String password = "";
     public String registro, nome, cargo, especialidade;
-    private ResourceBundle bn = ResourceBundle.getBundle("messages", Locale.getDefault());
 
     public Connection Conectar() 
     {

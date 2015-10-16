@@ -132,7 +132,7 @@ public class Voo
 		return horaChegada;
 	}
 	
-	public ArrayList destinos()
+	public ArrayList<String> destinos()
 	{
 		VooDAO vdao = new VooDAO();
 		voo = vdao.detinosDAO();

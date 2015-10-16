@@ -13,10 +13,7 @@
 </head>
 
 <body>
-
-
- <div class="container">
-
+ <div class="container">*
       <form class="form-signin" method="post" action="Login.do">
         <h2 class="form-signin-heading">Venda de Passagem WEB</h2>
         <label for="inputEmail" class="sr-only">Email</label>

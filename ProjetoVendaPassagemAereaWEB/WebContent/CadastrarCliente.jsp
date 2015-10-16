@@ -13,8 +13,6 @@
 <form class="form-horizontal" role="form" method="post" action="CadastrarCliente.do">
 	<div class="container">
 		<div class="jumbotron">
-		<h1></h1>
-			<p>
 			<h2><label>Cadastrar Cliente</label></h2>
 			<p>
 			<label>Nome<input type="text" class="form-control" id="nome" name="nome" /></label>

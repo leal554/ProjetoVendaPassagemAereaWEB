@@ -22,12 +22,11 @@ public class TransferenciaDAO
     {
         try 
         {
-        	Transferencia t = new Transferencia();
         	ConexaoDAO cdao = new ConexaoDAO();
         	con = cdao.Conectar();
             stm = con.createStatement();
            
-            stm.executeUpdate("UPDATE `passagem` SET `idCliente`= '"+t.getIdCliente2()+"' WHERE `idCliente` = '"+t.getIdCliente()+"' AND `id` = '"+t.getPassagem()+"'");
+            stm.executeUpdate("UPDATE `passagem` SET `idCliente`= '"+Transferencia.getIdCliente2()+"' WHERE `idCliente` = '"+Transferencia.getIdCliente()+"' AND `id` = '"+Transferencia.getPassagem()+"'");
             stm.close();
             
             //JOptionPane.showMessageDialog(null, bn.getString("dao.transferencia.mensagem1") + t.getIdCliente2());
@@ -38,7 +37,7 @@ public class TransferenciaDAO
         }
     }
     
-    public ArrayList passagensDAO(String idCliente) 
+    public ArrayList<String> passagensDAO(String idCliente) 
     {
         try 
         {

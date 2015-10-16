@@ -14,8 +14,7 @@ public class Cliente
 	private String emprego;
 	private String email;
 	private String senha;
-	private boolean clienteLogin;
-   	
+
    	public Cliente(){}
    	
    	public Cliente(String nome, String rg, String cpf, String endereco, int cep, String srSraSr, String estadoCivil, String emprego,

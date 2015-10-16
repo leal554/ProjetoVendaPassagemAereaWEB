@@ -17,7 +17,6 @@
 		<h1></h1>
 			<p>
 			<h2><label>Cadastrar voo</label></h2>
-			</p>
 			<p>
 			<label>numero do voo<input type="text" class="form-control" id="numeroVoo" name="Name" /></label>
 			</p>
@@ -46,7 +45,7 @@
 			<label>ComboAeronave<input type="text" class="form-control" id="comboAeronave" name="comboAeronave" /></label>
 			</p>
 			<p>
-			<label>ComboDestino<input type="text" class="form-control" id="comboDestino" name=""comboDestino"" /></label>
+			<label>ComboDestino<input type="text" class="form-control" id="comboDestino" name="comboDestino" /></label>
 			</p>
 			<p>
 			<input id="submit" name="submit" type="submit" value="Cadastrar Voo" class="btn btn-default">

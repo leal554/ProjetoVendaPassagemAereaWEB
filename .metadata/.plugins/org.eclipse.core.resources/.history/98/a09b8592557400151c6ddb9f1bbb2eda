@@ -1,0 +1,117 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Acentos</title>
+
+<jsp:include page="/layout.jsp" />
+
+
+</head>
+<body>
+<form class="form-horizontal" role="form" method="post" action="Acentos.do">
+	<div class="container">
+		<div class="jumbotron">
+		<h1></h1>
+			<p>
+			<h2><label>Acentos</label></h2>
+			</p>
+			<p>
+  			<img src="./img/poltronas.jpg" class="img-responsive" alt="Imagem Responsiva">
+			<p>
+			<label>Fileira</label>
+			</p>
+			<p>
+			<label for="a">A</label>
+  			<input type="radio" name="f" id="a" value="a">
+  			<label for="b">B</label>
+  			<input type="radio" name="op" id="b" value="b">
+			<label for="c">C</label>
+  			<input type="radio" name="op" id="c" value="c">
+  			<label for="d">D</label>
+  			<input type="radio" name="op" id="d" value="d">
+  			<label for="e">E</label>
+  			<input type="radio" name="op" id="e" value="e">
+  			<label for="f">F</label>
+  			<input type="radio" name="op" id="f" value="f">
+			</p>
+			<p>
+			<p>
+			<label>Poltrona</label>
+			</p>
+			<p>
+			<label for="Sr">01</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">02</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">03</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">04</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">05</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">06</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">07</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">08</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">09</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">10</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			</p>
+  			<p>
+  			<label for="Sr">11</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">12</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">13</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">14</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">15</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">16</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">17</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">18</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">19</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">20</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			</p>
+  			<p>
+  			<label for="Sr">21</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">22</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">23</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">24</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">25</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">26</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">27</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">28</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+  			<label for="Sr">29</label>
+  			<input type="radio" name="op" id="Sr" value="Sr">
+			</p>
+			<p>
+			<p>
+			<input id="submit" name="submit" type="submit" value="Menu Passagem" class="btn btn-default">
+			<a class="btn btn-default" href="./ComprarPassagem.jsp" role="button">Voltar</a>
+			</p>
+		</div>
+	</div>
+	</form>
+</body>
+</html>

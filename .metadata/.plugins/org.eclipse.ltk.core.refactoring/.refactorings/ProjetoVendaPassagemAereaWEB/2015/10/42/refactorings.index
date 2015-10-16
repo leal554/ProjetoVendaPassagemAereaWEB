@@ -10,3 +10,5 @@
 1444957847643	Rename resource 'BarraSuperior.jsp'
 1445017277643	Rename type 'CadastroAeronave'
 1445017330794	Rename type 'TransferenciaPassagem'
+1445034153861	Move 'poltronas.jpg' to 'WebContent'
+1445034205548	Move 'poltronas.jpg' to 'img'

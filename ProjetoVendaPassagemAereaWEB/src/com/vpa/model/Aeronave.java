@@ -1,15 +1,11 @@
 package com.vpa.model;
 
-import java.util.Locale;
-import java.util.ResourceBundle;
-
 import com.vpa.data.AeronaveDAO;
 
 public class Aeronave 
 {
 	private String numeroDaAeronave;
 	private int numeroDeAcentos;
-	private ResourceBundle bn = ResourceBundle.getBundle("messages", Locale.getDefault());
 
 	public Aeronave(){}
 	

@@ -4,10 +4,6 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.Locale;
-import java.util.ResourceBundle;
-
-import com.vpa.data.ConexaoDAO;
 
 public class ClienteDAO 
 {
@@ -17,7 +13,6 @@ public class ClienteDAO
     private int idCliente;
     private String email;
     private String senha;
-    private ResourceBundle bn = ResourceBundle.getBundle("messages", Locale.getDefault());
     
     public void InserirCliente(String nome, String rg, String cpf, String endereco, int cep, String srSraSr, String estadoCivil, String emprego,
 				String email, String senha)

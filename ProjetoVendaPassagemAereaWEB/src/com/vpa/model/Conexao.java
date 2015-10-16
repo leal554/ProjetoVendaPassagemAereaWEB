@@ -8,6 +8,6 @@ public class Conexao
 {
 	public Conexao() throws SQLException
 	{
-		ConexaoDAO cd = new ConexaoDAO();
+		new ConexaoDAO();
 	}
 }

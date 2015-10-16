@@ -37,7 +37,7 @@ public class VooDAO
         }
     }
     
-    public ArrayList detinosDAO() 
+    public ArrayList<String> detinosDAO() 
     {
         try 
         {

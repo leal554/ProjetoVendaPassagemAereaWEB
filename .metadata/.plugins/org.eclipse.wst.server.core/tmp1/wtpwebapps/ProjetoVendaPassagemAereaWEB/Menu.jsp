@@ -9,18 +9,17 @@
 </head>
 
 <body>
-    
     <div class="container">
 		<div class="jumbotron">
 		<h1></h1>
 			<p>
-			<a class="btn btn-lg btn-primary" href="./CadastrarVoo.jsp" role="button">Cadastrar Voo</a>
+			<a class="btn btn-lg btn-primary" href="./CadastrarVoo.jsp" >Cadastrar Voo</a>
 			</p>
 			<p>
-			<a class="btn btn-lg btn-primary" href="./CadastrarAeronave.jsp" role="button">Cadastrar Aeronave</a>
+			<a class="btn btn-lg btn-primary" href="./CadastrarAeronave.jsp" >Cadastrar Aeronave</a>
 			</p>
 			<p>
-			<a class="btn btn-lg btn-primary" href="./MenuPassagem.jsp" role="button">Menu Passagem</a>
+			<a class="btn btn-lg btn-primary" href="./MenuPassagem.jsp" >Menu Passagem</a>
 			</p>
 		</div>
 	</div>

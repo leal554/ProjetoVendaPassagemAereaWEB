@@ -61,9 +61,8 @@ public class EscolherVooPassagem extends HttpServlet {
 		numeroVoo = v.getNumeroVoo();
 		numeroAeronave = v.getNumeroAeronave();
 			
-		Passagem p = new Passagem();
-		p.setNumeroVoo(numeroVoo);
-		p.setNumeroAeronave(numeroAeronave);
+		Passagem.setNumeroVoo(numeroVoo);
+		Passagem.setNumeroAeronave(numeroAeronave);
 		
 		RequestDispatcher view = request.getRequestDispatcher("ComprarPassagem.jsp");
 		view.forward(request, response);

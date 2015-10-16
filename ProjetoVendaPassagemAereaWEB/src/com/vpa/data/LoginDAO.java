@@ -4,9 +4,6 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.Locale;
-import java.util.ResourceBundle;
 
 
 public class LoginDAO 
@@ -14,10 +11,8 @@ public class LoginDAO
 	private Statement stm;
     private Connection con;
     private ResultSet rs;
-    private int idCliente;
     private String email;
     private String senha;
-    private ResourceBundle bn = ResourceBundle.getBundle("messages", Locale.getDefault());
 	
 	public boolean loginClienteDAO(String email , String senha) 
     {

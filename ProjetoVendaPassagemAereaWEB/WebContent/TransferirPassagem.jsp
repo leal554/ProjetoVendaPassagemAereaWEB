@@ -10,7 +10,7 @@
 
 </head>
 <body>
-<form class="form-horizontal" role="form" method="post" action="TransferenciaPassagem.do">
+<form class="form-horizontal" role="form" method="post" action="TransferirPassagem.do">
 	<div class="container">
 		<div class="jumbotron">
 			<p>

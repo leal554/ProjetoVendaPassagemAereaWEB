@@ -36,7 +36,7 @@ public class AeronaveDAO
         }
     }
     
-    public ArrayList numeroAeronave() 
+    public ArrayList<String> numeroAeronave() 
     {
         try 
         {

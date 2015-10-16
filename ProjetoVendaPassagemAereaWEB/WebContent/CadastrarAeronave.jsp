@@ -16,7 +16,6 @@
 		<h1></h1>
 			<p>
 			<h2><label>Cadastrar Aeronave</label></h2>
-			</p>
 			<p>
 			<label>Numero da Aeronave<input type="text" class="form-control" id="numeroAeronave" name="numeroAeronave" /></label>
 			</p>

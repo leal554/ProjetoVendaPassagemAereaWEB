@@ -9,7 +9,6 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 
 import com.vpa.model.CheckIn;
-import com.vpa.model.Transferencia;
 
 public class CheckInDAO 
 {
@@ -18,16 +17,14 @@ public class CheckInDAO
     private ResultSet rs;
     private ArrayList<String> arrayCheck = new ArrayList<String>();
     private ResourceBundle bn = ResourceBundle.getBundle("messages", Locale.getDefault());
-    //bn.getString("cadastrarCliente.cadastrarCliente")
     public void checkIn()
     {
         try 
         {
-        	CheckIn c = new CheckIn();
         	ConexaoDAO cdao = new ConexaoDAO();
         	con = cdao.Conectar();
             stm = con.createStatement(); 
-            stm.executeUpdate("UPDATE `passagem` SET `checkIn`= '1'  WHERE `idCliente` = '"+c.getIdCliente()+"' AND `id` = '"+c.getPassagem()+"'");
+            stm.executeUpdate("UPDATE `passagem` SET `checkIn`= '1'  WHERE `idCliente` = '"+CheckIn.getIdCliente()+"' AND `id` = '"+CheckIn.getPassagem()+"'");
             stm.close();
             
             //JOptionPane.showMessageDialog(null, bn.getString("dao.checkIn.mensagem1"));
@@ -38,7 +35,7 @@ public class CheckInDAO
         }
     }
     
-    public ArrayList checkDAO(String idCliente) 
+    public ArrayList<String> checkDAO(String idCliente) 
     {
         try 
         {
