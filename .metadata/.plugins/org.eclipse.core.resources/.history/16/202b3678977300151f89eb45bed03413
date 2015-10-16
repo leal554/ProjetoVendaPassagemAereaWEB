@@ -1,0 +1,76 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Cadastrar Cliente</title>
+
+ <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css" />
+ <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.min.css" />
+ <script src=".bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+		<div>
+			<label>Cadastrar Cliente<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Nome<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>RG<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>CPF<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Endereço<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>CEP<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Criança</label>
+			<label for="sim">Sim</label>
+  			<input type="radio" name="op" id="sim" value="sim">
+  			<label for="nao">Não</label>
+  			<input type="radio" name="op" id="nao" value="nao">
+		</div>
+		<div>
+			<label>Criança</label>
+			<label for="sim">Sim</label>
+  			<input type="radio" name="op" id="sim" value="sim">
+  			<label for="nao">Não</label>
+  			<input type="radio" name="op" id="nao" value="nao">
+			<label>Criança</label>
+			<label for="sim">Sim</label>
+  			<input type="radio" name="op" id="sim" value="sim">
+  			<label for="nao">Não</label>
+  			<input type="radio" name="op" id="nao" value="nao">
+		</div>
+		<div>
+			<label>Estado Civil<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Cadastrar<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Cadastrar<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Cadastrar<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Cadastrar<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Cadastrar<input type="text" id="User" name="Name" /></label>
+		</div>
+		
+		<div>
+			<button onclick="window.location.href='./Menu.jsp'">Cadastrar Voo</button>
+			<button onclick="window.location.href='./Menu.jsp'">Voltar</button>
+		</div>
+</body>
+</html>

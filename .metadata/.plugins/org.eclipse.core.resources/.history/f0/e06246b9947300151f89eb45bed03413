@@ -1,0 +1,68 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Comprar Passagem</title>
+
+ <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css" />
+ <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.min.css" />
+ <script src=".bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+		<div>
+			<label>Comprar Passagem<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Peso Bagagem<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Numero Bagagem<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Necessidade Especial</label>
+			<label for="sim">Sim</label>
+  			<input type="radio" name="op" id="sim" value="sim">
+  			<label for="nao">Não</label>
+  			<input type="radio" name="op" id="nao" value="nao">
+		</div>
+		<div>
+			<label>Criança</label>
+			<label for="sim">Sim</label>
+  			<input type="radio" name="op" id="sim" value="sim">
+  			<label for="nao">Não</label>
+  			<input type="radio" name="op" id="nao" value="nao">
+		</div>
+		<div>
+			<label>Ida e Volta</label>
+			<label for="sim">Sim</label>
+  			<input type="radio" name="op" id="sim" value="sim">
+  			<label for="nao">Não</label>
+  			<input type="radio" name="op" id="nao" value="nao">
+		</div>
+		<div>
+			<label>Forma de Pagamento<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Numero do Cartao<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Codigo de Segurança<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Data da ida<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Data da Volta<input type="text" id="User" name="Name" /></label>
+		</div>
+		
+      	<div>
+			<button onclick="window.location.href='./Menu.jsp'">Cadastrar Voo</button>
+		</div>
+		<div>
+			<button onclick="window.location.href='./Menu.jsp'">Voltar</button>
+		</div>
+</body>
+</html>

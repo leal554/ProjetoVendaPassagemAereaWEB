@@ -17,7 +17,7 @@
  <div class="container">
 
       <form class="form-signin" method="post" action="Login.do">
-        <h2 class="form-signin-heading">Venda de Passagem WEB</h2>
+        <h2 class="form-signin-heading">Login Check-in</h2>
         <label for="inputEmail" class="sr-only">Email</label>
         <input name="email" type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
