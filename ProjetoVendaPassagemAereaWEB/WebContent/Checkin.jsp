@@ -6,23 +6,26 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Check-in</title>
 
- <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css" />
- <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.min.css" />
- <script src=".bootstrap/js/bootstrap.min.js"></script>
+<jsp:include page="/layout.jsp" />
+
 
 </head>
 <body>
-		<div>
-			<label>Despachar Bagagem</label><br>
+		<div class="container">
+		<div class="jumbotron">
+		<h1></h1>
+			<p>
+			<label>Despachar Bagagem</label><br><br>
 			<label for="sim">Sim</label>
   			<input type="radio" name="op" id="sim" value="sim">
   			<label for="nao">Não</label>
   			<input type="radio" name="op" id="nao" value="nao">
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./MenuPassagem.jsp" role="button">Emitir</a>
+			<a class="btn btn-lg btn-primary" href="./LoginCheckIn.jsp" role="button">Voltar</a>
+			</p>
 		</div>
-		
-      	<div>
-			<button onclick="window.location.href='./MenuPassagem.jsp'">Emitir</button>
-			<button onclick="window.location.href='./LoginCheckin.jsp'">Voltar</button>
-		</div>
+	</div>
 </body>
 </html>

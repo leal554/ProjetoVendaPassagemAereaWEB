@@ -6,43 +6,45 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Escolher Voo Passagem</title>
 
- <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css" />
- <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.min.css" />
- <script src=".bootstrap/js/bootstrap.min.js"></script>
+<jsp:include page="/layout.jsp" /><jsp:include page="/layout.jsp" />
 
 </head>
 <body>
-		<div>
+	<div class="container">
+		<div class="jumbotron">
+		<h1></h1>
+			<p>
 			<label>Escolher Destino<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Escolher Voo<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Voo Para combobox<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Voo Partida<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>SP/GRU ARRUMAR<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Data da Partida<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Data da Chegada<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Hora da Partida<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Hora da Chegada<input type="text" id="User" name="Name" /></label>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./ComprarPassagem.jsp" role="button">Cadastrar Voo</a>
+			<a class="btn btn-lg btn-primary" href="./LoginComprarPassagem.jsp" role="button">Voltar</a>
+			</p>
 		</div>
-		
-      	<div>
-			<button onclick="window.location.href='./ComprarPassagem.jsp'">Cadastrar Voo</button>
-			<button onclick="window.location.href='./LoginComprarPassagem.jsp'">Voltar</button>
-		</div>
+	</div>
 </body>
 </html>

@@ -6,23 +6,24 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Transferir Passagem</title>
 
- <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css" />
- <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.min.css" />
- <script src=".bootstrap/js/bootstrap.min.js"></script>
+<jsp:include page="/layout.jsp" />
 
 </head>
 <body>
-
-		<div>
+	<div class="container">
+		<div class="jumbotron">
+		<h1></h1>
+			<p>
 			<label>Id do Beneficiario<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Id da Passagem<input type="text" id="User" name="Name" /></label>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./MenuPassagem.jsp" role="button">Transferir</a>
+			<a class="btn btn-lg btn-primary" href="./LoginTransferencia.jsp" role="button">Voltar</a>
+			</p>
 		</div>
-		
-      	<div>
-			<button onclick="window.location.href='./MenuPassagem.jsp'">Transferir</button>
-			<button onclick="window.location.href='./LoginTransferencia.jsp'">Voltar</button>
-		</div>
+	</div>
 </body>
 </html>

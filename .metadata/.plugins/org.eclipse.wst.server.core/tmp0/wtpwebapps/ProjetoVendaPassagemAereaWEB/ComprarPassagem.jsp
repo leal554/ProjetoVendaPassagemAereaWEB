@@ -5,66 +5,63 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Comprar Passagem</title>
-
- <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css" />
- <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.min.css" />
- <script src=".bootstrap/js/bootstrap.min.js"></script>
+<jsp:include page="/layout.jsp" />
 
 </head>
 <body>
-		<div>
+ 	<div class="container">
+		<div class="jumbotron">
+		<h1></h1>
+			<p>
 			<label>Comprar Passagem<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Peso Bagagem<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Numero Bagagem<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Necessidade Especial</label>
 			<label for="sim">Sim</label>
   			<input type="radio" name="op" id="sim" value="sim">
   			<label for="nao">Não</label>
-  			<input type="radio" name="op" id="nao" value="nao">
-		</div>
-		<div>
+  			<input type="radio" name="op" id="nao" value="nao">			</p>
+			<p>
 			<label>Criança</label>
 			<label for="sim">Sim</label>
   			<input type="radio" name="op" id="sim" value="sim">
   			<label for="nao">Não</label>
-  			<input type="radio" name="op" id="nao" value="nao">
-		</div>
-		<div>
+  			<input type="radio" name="op" id="nao" value="nao">			</p>
+			<p>
 			<label>Ida e Volta</label>
 			<label for="sim">Sim</label>
   			<input type="radio" name="op" id="sim" value="sim">
   			<label for="nao">Não</label>
-  			<input type="radio" name="op" id="nao" value="nao">
-		</div>
-		<div>
+  			<input type="radio" name="op" id="nao" value="nao">			</p>
+			<p>
 			<label>Forma de Pagamento</label>
 			<label for="credito">Credito</label>
   			<input type="radio" name="formapagamento" id="credito" value="credito">
   			<label for="debito">Debito</label>
-  			<input type="radio" name="formapagamento" id="debito" value="debito">
-		</div>
-		<div>
+  			<input type="radio" name="formapagamento" id="debito" value="debito">			</p>
+			<p>
 			<label>Numero do Cartao<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Codigo de Segurança<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Data da ida<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Data da Volta<input type="text" id="User" name="Name" /></label>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./Acentos.jsp" role="button">Comprar Passagem</a>
+			<a class="btn btn-lg btn-primary" href="./EscolherVooPassagem.jsp" role="button">Voltar</a>
+			</p>
 		</div>
-		
-      	<div>
-			<button onclick="window.location.href='./Acentos.jsp'">Comprar Passagem</button>
-			<button onclick="window.location.href='./EscolherVooPassagem.jsp'">Voltar</button>
-		</div>
+	
 </body>
 </html>

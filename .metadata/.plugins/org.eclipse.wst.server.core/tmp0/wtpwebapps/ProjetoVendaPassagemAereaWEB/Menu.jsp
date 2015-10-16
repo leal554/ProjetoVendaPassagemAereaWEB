@@ -5,18 +5,25 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Menu</title>
+<jsp:include page="/layout.jsp" />
 </head>
+
 <body>
-	<div>
-		<button onclick="window.location.href='./CadastrarVoo.jsp'">Cadastrar Voo</button>
+    
+    <div class="container">
+		<div class="jumbotron">
+		<h1></h1>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./CadastrarVoo.jsp" role="button">Cadastrar Voo</a>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./CadastrarAeronave.jsp" role="button">Cadastrar Aeronave</a>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./MenuPassagem.jsp" role="button">Menu Passagem</a>
+			</p>
+		</div>
 	</div>
-	<br>
-	<div>
-		<button onclick="window.location.href='./CadastrarAeronave.jsp'">Cadastrar Aeronave</button>
-	</div>
-	<br>
-	<div>
-		<button onclick="window.location.href='./MenuPassagem.jsp'">Menu Passagem</button>
-	</div>
+  </body>
 </body>
 </html>

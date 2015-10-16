@@ -6,28 +6,27 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Cadastrar de Aeronave </title>
 
- <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css" />
- <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.min.css" />
- <script src=".bootstrap/js/bootstrap.min.js"></script>
+<jsp:include page="/layout.jsp" />
 
 </head>
 <body>
-
-      	<div>
+    <div class="container">
+		<div class="jumbotron">
+		<h1></h1>
+			<p>
 			<label>Cadastrar Aeronave<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Numero da Aeronave<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>numero de Acentos<input type="text" id="User" name="Name" /></label>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./Menu.jsp" role="button">Cadastrar Aeronave</a>
+			<a class="btn btn-lg btn-primary" href="./Menu.jsp" role="button">Voltar</a>
+			</p>
 		</div>
-		
-      	<div>
-			<button onclick="window.location.href='./Menu.jsp'">Cadastrar Aeronave</button>
-		</div>
-		<div>
-			<button onclick="window.location.href='./Menu.jsp'">Voltar</button>
-		</div>
+	</div>
 </body>
 </html>

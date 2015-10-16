@@ -1,0 +1,53 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Cadastrar de Aeronave </title>
+
+<jsp:include page="/layout.jsp" />
+
+</head>
+<body>
+
+      	<div>
+			<label>Cadastrar Aeronave<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Numero da Aeronave<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>numero de Acentos<input type="text" id="User" name="Name" /></label>
+		</div>
+		
+      	<div>
+			<button onclick="window.location.href='./Menu.jsp'">Cadastrar Aeronave</button>
+		</div>
+		<div>
+			<button onclick="window.location.href='./Menu.jsp'">Voltar</button>
+		</div>
+		
+		 
+    <div class="container">
+		<div class="jumbotron">
+		<h1></h1>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./LoginComprarPassagem.jsp" role="button">Comprar Passagem</a>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./CadastrarCliente.jsp" role="button">Novo Cliente</a>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./ConsultarCliente.jsp" role="button">Consultar Cliente</a>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./LoginTransferencia.jsp" role="button">Transferir Passagem</a>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./LoginCheckIn.jsp" role="button">Checkin</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

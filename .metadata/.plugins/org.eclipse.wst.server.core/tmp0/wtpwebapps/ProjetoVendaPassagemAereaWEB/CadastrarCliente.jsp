@@ -5,33 +5,32 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Cadastrar Cliente</title>
-
- <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css" />
- <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.min.css" />
- <script src=".bootstrap/js/bootstrap.min.js"></script>
+<jsp:include page="/layout.jsp" />
 
 </head>
 <body>
-		<div>
+	<div class="container">
+		<div class="jumbotron">
+		<h1></h1>
+			<p>
 			<label>Cadastrar Cliente<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Nome<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>RG<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>CPF<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Endereço<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>CEP<input type="text" id="User" name="Name" /></label>
-		</div>
-
-		<div>
+			</p>
+			<p>
 			<label>Como gostaria de ser chamado</label>
 			<label for="Sr">Sr.</label>
   			<input type="radio" name="op" id="Sr" value="sim">
@@ -39,30 +38,28 @@
   			<input type="radio" name="op" id="Sra" value="nao">
 			<label for="Srta">Srta.</label>
   			<input type="radio" name="op" id="Srta" value="sim">
-		</div>
-		<div>
-			<label>Estado Civil<input type="text" id="User" name="Name" /></label>
-		</div>
-		combo
-		<div>
+			</p>
+			<p>
+			<label>Estado Civil   combo</label>
+			</p>
+			<p>
 			<label>Emprego<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Email<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Confirmar Email<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Senha<input type="text" id="User" name="Name" /></label>
-		</div>
-		<div>
+			</p>
+			<p>
 			<label>Confirmar Senha<input type="text" id="User" name="Name" /></label>
+			</p>
+			<a class="btn btn-lg btn-primary" href="./MenuPassagem.jsp" role="button">Cadastrar</a>
+			<a class="btn btn-lg btn-primary" href="./MenuPassagem.jsp" role="button">Voltar</a>
 		</div>
-		
-		<div>
-			<button onclick="window.location.href='./MenuPassagem.jsp'">Cadastrar</button>
-			<button onclick="window.location.href='./MenuPassagem.jsp'">Voltar</button>
-		</div>
+	</div>
 </body>
 </html>

@@ -5,27 +5,30 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Menu Passagem</title>
+<jsp:include page="/layout.jsp" />
 </head>
 <body>
-	<div>
-		<button onclick="window.location.href='./LoginComprarPassagem.jsp'">Comprar Passagem</button>
+
+    
+    <div class="container">
+		<div class="jumbotron">
+		<h1></h1>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./LoginComprarPassagem.jsp" role="button">Comprar Passagem</a>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./CadastrarCliente.jsp" role="button">Novo Cliente</a>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./ConsultarCliente.jsp" role="button">Consultar Cliente</a>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./LoginTransferencia.jsp" role="button">Transferir Passagem</a>
+			</p>
+			<p>
+			<a class="btn btn-lg btn-primary" href="./LoginCheckIn.jsp" role="button">Checkin</a>
+			</p>
+		</div>
 	</div>
-	<br>
-	<div>
-		<button onclick="window.location.href='./CadastrarCliente.jsp'">Novo Cliente</button>
-	</div>
-	<br>
-	<div>
-		<button onclick="window.location.href='./ConsultarCliente.jsp'">Consultar Cliente</button>
-	</div>
-	<br>
-	<div>
-		<button onclick="window.location.href='./LoginTransferencia.jsp'">Transferir Passagem</button>
-	</div>
-	<br>
-	<div>
-		<button onclick="window.location.href='./LoginCheckIn.jsp'">Checkin</button>
-	</div>
-	<br>
 </body>
 </html>
