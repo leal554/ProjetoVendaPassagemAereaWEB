@@ -2,4 +2,12 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.vpa.model.LoginControle"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.vpa.model.CheckIn"/>
+<fullyQualifiedTypeName name="com.vpa.data.CheckInDAO"/>
+<fullyQualifiedTypeName name="com.vpa.model.Aeronave"/>
+<fullyQualifiedTypeName name="com.vpa.model.Pagamento"/>
+<fullyQualifiedTypeName name="com.vpa.model.Voo"/>
+<fullyQualifiedTypeName name="com.vpa.model.Passagem"/>
+<fullyQualifiedTypeName name="com.vpa.data.TransferenciaDAO"/>
+<fullyQualifiedTypeName name="com.vpa.model.Transferencia"/>
 </qualifiedTypeNameHistroy>
