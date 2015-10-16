@@ -13,7 +13,10 @@
 </head>
 <body>
 		<div>
-			<label>Despachar Bagagem</label><br>
+			<label>destino<input type="text" id="User" name="Name" /></label>
+		</div>
+		<div>
+			<label>Criança</label>
 			<label for="sim">Sim</label>
   			<input type="radio" name="op" id="sim" value="sim">
   			<label for="nao">Não</label>
@@ -21,7 +24,7 @@
 		</div>
 		
       	<div>
-			<button onclick="window.location.href='./MenuPassagem.jsp'">Emitir</button>
+			<button onclick="window.location.href='./MenuPassagem.jsp'">Cadastrar Voo</button>
 			<button onclick="window.location.href='./LoginCheckin.jsp'">Voltar</button>
 		</div>
 </body>

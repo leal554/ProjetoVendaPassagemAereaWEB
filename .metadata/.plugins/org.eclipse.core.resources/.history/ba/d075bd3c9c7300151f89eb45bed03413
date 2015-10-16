@@ -13,7 +13,7 @@
 </head>
 <body>
 		<div>
-			<label>Despachar Bagagem</label><br>
+			<label>Despachar Bagagem</label>
 			<label for="sim">Sim</label>
   			<input type="radio" name="op" id="sim" value="sim">
   			<label for="nao">Não</label>
