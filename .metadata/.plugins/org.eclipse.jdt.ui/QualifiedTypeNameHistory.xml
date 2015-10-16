@@ -7,7 +7,9 @@
 <fullyQualifiedTypeName name="com.vpa.model.Aeronave"/>
 <fullyQualifiedTypeName name="com.vpa.model.Pagamento"/>
 <fullyQualifiedTypeName name="com.vpa.model.Voo"/>
-<fullyQualifiedTypeName name="com.vpa.model.Passagem"/>
 <fullyQualifiedTypeName name="com.vpa.data.TransferenciaDAO"/>
 <fullyQualifiedTypeName name="com.vpa.model.Transferencia"/>
+<fullyQualifiedTypeName name="com.vpa.model.Passagem"/>
+<fullyQualifiedTypeName name="com.vpa.data.PassagemDAO"/>
+<fullyQualifiedTypeName name="com.vpa.model.Cliente"/>
 </qualifiedTypeNameHistroy>
