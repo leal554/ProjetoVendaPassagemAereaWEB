@@ -10,20 +10,24 @@
 
 </head>
 <body>
+<form class="form-horizontal" role="form" method="post" action="TransferenciaPassagem.do">
 	<div class="container">
 		<div class="jumbotron">
-		<h1></h1>
 			<p>
-			<label>Id do Beneficiario<input type="text" id="User" name="Name" /></label>
+			<h2><label>Transferir Passagem</label></h2>
+			<p>
+			<p>
+			<label>Id do Beneficiario/ Email<input type="text" class="form-control" id="idben" name="idben" /></label>
 			</p>
 			<p>
-			<label>Id da Passagem<input type="text" id="User" name="Name" /></label>
+			<label>Id da Passagem<input type="text" class="form-control" id="idpa" name="idpa" /></label>
 			</p>
 			<p>
-			<a class="btn btn-lg btn-primary" href="./MenuPassagem.jsp" role="button">Transferir</a>
-			<a class="btn btn-lg btn-primary" href="./LoginTransferencia.jsp" role="button">Voltar</a>
+			<input id="submit" name="submit" type="submit" value="Transferir" class="btn btn-default">
+			<a class="btn btn-default" href="./LoginTransferencia.jsp" role="button">Voltar</a>
 			</p>
 		</div>
 	</div>
+	</form>
 </body>
 </html>

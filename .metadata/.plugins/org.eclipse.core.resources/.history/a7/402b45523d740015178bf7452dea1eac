@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Transferir Passagem</title>
+
+<jsp:include page="/layout.jsp" />
+
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<p>
+			<h2><label>Transferir Passagem</label></h2>
+			<p>
+			<p>
+			<label>Id do Beneficiario<input type="text" class="form-control" id="emprego" name="emprego" /></label>
+			</p>
+			<p>
+			<label>Id da Passagem<input type="text" class="form-control" id="emprego" name="emprego" /></label>
+			</p>
+			<p>
+			<input id="submit" name="submit" type="submit" value="Transferir" class="btn btn-default">
+			<a class="btn btn-default" href="./MenuPassagem.jsp" role="button">Transferir</a>
+			<a class="btn btn-default" href="./LoginTransferencia.jsp" role="button">Voltar</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

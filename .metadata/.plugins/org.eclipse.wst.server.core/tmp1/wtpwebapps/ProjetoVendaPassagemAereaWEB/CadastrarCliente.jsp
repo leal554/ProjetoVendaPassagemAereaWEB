@@ -16,7 +16,6 @@
 		<h1></h1>
 			<p>
 			<h2><label>Cadastrar Cliente</label></h2>
-			</p>
 			<p>
 			<label>Nome<input type="text" class="form-control" id="nome" name="nome" /></label>
 			</p>

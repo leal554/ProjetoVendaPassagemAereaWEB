@@ -10,41 +10,36 @@
 
 </head>
 <body>
+<form class="form-horizontal" role="form" method="post" action="EscolherVooPassagem.do">
 	<div class="container">
 		<div class="jumbotron">
 		<h1></h1>
 			<p>
-			<label>Escolher Destino<input type="text" id="User" name="Name" /></label>
+			<h2><label>Escolher Voo Passagem</label></h2>
+			<p>
+			<label>Escolher Voo para combobox<input type="text" class="form-control" id="emprego" name="emprego" /></label>
 			</p>
 			<p>
-			<label>Escolher Voo<input type="text" id="User" name="Name" /></label>
+			<label>Voo Partida SP/GRU ARRUMAR<input type="text" class="form-control" id="emprego" name="emprego" /></label>
 			</p>
 			<p>
-			<label>Voo Para combobox<input type="text" id="User" name="Name" /></label>
+			<label>Data da Partida<input type="text" class="form-control" id="emprego" name="emprego" /></label>
 			</p>
 			<p>
-			<label>Voo Partida<input type="text" id="User" name="Name" /></label>
+			<label>Data da Chegada<input type="text" class="form-control" id="emprego" name="emprego" /></label>
 			</p>
 			<p>
-			<label>SP/GRU ARRUMAR<input type="text" id="User" name="Name" /></label>
+			<label>Hora da Partida<input type="text" class="form-control" id="emprego" name="emprego" /></label>
 			</p>
 			<p>
-			<label>Data da Partida<input type="text" id="User" name="Name" /></label>
+			<label>Hora da Chegada<input type="text" class="form-control" id="emprego" name="emprego" /></label>
 			</p>
 			<p>
-			<label>Data da Chegada<input type="text" id="User" name="Name" /></label>
-			</p>
-			<p>
-			<label>Hora da Partida<input type="text" id="User" name="Name" /></label>
-			</p>
-			<p>
-			<label>Hora da Chegada<input type="text" id="User" name="Name" /></label>
-			</p>
-			<p>
-			<a class="btn btn-lg btn-primary" href="./ComprarPassagem.jsp" role="button">Cadastrar Voo</a>
-			<a class="btn btn-lg btn-primary" href="./LoginComprarPassagem.jsp" role="button">Voltar</a>
+			<input id="submit" name="submit" type="submit" value="Cadastrar Voo" class="btn btn-default">
+			<a class="btn btn-default" href="./LoginComprarPassagem.jsp" role="button">Voltar</a>
 			</p>
 		</div>
 	</div>
+	</form>
 </body>
 </html>

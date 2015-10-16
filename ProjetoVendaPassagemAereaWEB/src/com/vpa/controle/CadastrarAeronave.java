@@ -14,7 +14,7 @@ import com.vpa.model.Aeronave;
 /**
  * Servlet implementation class CadastroAeronave
  */
-@WebServlet("/CadastroAeronave.do")
+@WebServlet("/CadastrarAeronave.do")
 public class CadastrarAeronave extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

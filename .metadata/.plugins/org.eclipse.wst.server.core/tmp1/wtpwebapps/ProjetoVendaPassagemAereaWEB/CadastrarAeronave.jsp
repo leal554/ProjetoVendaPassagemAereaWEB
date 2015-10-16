@@ -10,7 +10,7 @@
 
 </head>
 <body>
-<form class="form-horizontal" role="form" method="post" action="CadastroAeronave.do">
+<form class="form-horizontal" role="form" method="post" action="CadastrarAeronave.do">
     <div class="container">
 		<div class="jumbotron">
 		<h1></h1>
