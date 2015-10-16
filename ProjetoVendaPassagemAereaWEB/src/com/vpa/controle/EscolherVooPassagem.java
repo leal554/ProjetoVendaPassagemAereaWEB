@@ -33,9 +33,35 @@ public class EscolherVooPassagem extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		
 	}
+	
+/*	String voo = (String) cVooPara.getSelectedItem();
 
+	if(e.getSource() == cVooPara)
+	{
+		Voo v = new Voo();
+		
+		textoPartida.setText(v.diaSaida());//dia de partida e chega iguais
+		textoChegada.setText(v.diaSaida());
+		 
+		textoHoraPartida.setText(v.horaSaida());
+		textoHoraChegada.setText(v.horaChegada());
+	}
+	
+	if(e.getSource() == comprar)
+	{
+		String numeroVoo, numeroAeronave;
+		
+		Voo v = new Voo();
+		numeroVoo = v.getNumeroVoo();
+		numeroAeronave = v.getNumeroAeronave();
+		
+		Passagem p = new Passagem();
+		p.setNumeroVoo(numeroVoo);
+		p.setNumeroAeronave(numeroAeronave);
+		
+		*/
 }
