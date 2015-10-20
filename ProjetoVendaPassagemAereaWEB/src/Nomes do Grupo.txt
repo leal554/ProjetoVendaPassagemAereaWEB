@@ -2,12 +2,12 @@
 //
 // Grupo: 
 //
-// 2MSIN
+// 3MSIN / ARQDSIS
 //
 // Gabriel de Sousa Leal / RA: 201202909
 //
 // Andre Pacetti Dassa / RA: 201202384
 //
-// Eduardo Américo Rodrigues Lopes / RA: 201206168
+// Rafael Turse Ribeiro     / RA:201210021
 //
 */

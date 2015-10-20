@@ -44,10 +44,11 @@ public class Login extends HttpServlet {
 		String senha = request.getParameter("senha");
 		
 		LoginControle l = new LoginControle();
-		login = l.verificaSenha(email, senha);
+		login = l.loginCliente(email, senha);
 		
 		if(login == true)
 		{
+			//if
 			RequestDispatcher view = request.getRequestDispatcher("Menu.jsp");
 			view.forward(request, response);
 		}

@@ -44,7 +44,7 @@ public class LoginCheckIn extends HttpServlet {
 		String senha = request.getParameter("senha");
 		
 		LoginControle l = new LoginControle();
-		login = l.verificaSenha(email, senha);
+		login = l.loginCliente(email, senha);
 		
 		if(login == true)
 		{

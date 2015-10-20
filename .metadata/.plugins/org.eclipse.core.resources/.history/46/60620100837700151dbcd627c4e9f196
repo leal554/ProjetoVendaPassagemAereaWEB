@@ -1,0 +1,23 @@
+package com.vpa.model;
+
+import com.vpa.data.ClienteDAO;
+
+public class LoginControle 
+{
+	public LoginControle(){}
+	
+	public boolean verificaSenha(String email, String senha)
+	{
+		return true;
+	}
+	
+	public boolean loginCliente(String email, String senha)
+   	{	
+   		boolean idCliente = false;
+   		
+   		ClienteDAO cdao = new ClienteDAO();
+   		idCliente = cdao.loginClienteDAO(email, senha);
+   		
+   		return idCliente;
+   	}
+}
