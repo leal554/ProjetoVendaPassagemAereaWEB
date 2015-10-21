@@ -42,12 +42,12 @@
 			<label class="control-label">Estado Civil</label>
         	<select class="form-control" name="size">
         	 <option value=""></option>
-                <option value="solteiro">Solteiro(a)</option>
-                <option value="casado">Casado(a)</option>
-                <option value="divorciado">Divorciado(a)</option>
-                <option value="viuvo">Viúvo(a)</option>
-                <option value="separado">Separado(a)</option>
-                <option value="companheiro">Companheiro(a)</option>
+                <option value="s">Solteiro</option>
+                <option value="m">Casado</option>
+                <option value="l">Divorciado</option>
+                <option value="xl">Viúvo</option>
+                <option value="xl">Separado</option>
+                <option value="xl">Companheiro</option>
             </select>
 			</p>
 			<p>

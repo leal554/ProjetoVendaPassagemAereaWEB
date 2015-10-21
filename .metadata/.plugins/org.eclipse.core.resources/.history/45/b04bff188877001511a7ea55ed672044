@@ -39,15 +39,13 @@
   			<input type="radio" name="op" id="Srta" value="Srta">
 			</p>
 			<p>
-			<label class="control-label">Estado Civil</label>
+			<label class="col-xs-3 control-label">Size</label>
         	<select class="form-control" name="size">
-        	 <option value=""></option>
-                <option value="solteiro">Solteiro(a)</option>
-                <option value="casado">Casado(a)</option>
-                <option value="divorciado">Divorciado(a)</option>
-                <option value="viuvo">Viúvo(a)</option>
-                <option value="separado">Separado(a)</option>
-                <option value="companheiro">Companheiro(a)</option>
+                <option value="">Choose a size</option>
+                <option value="s">Small (S)</option>
+                <option value="m">Medium (M)</option>
+                <option value="l">Large (L)</option>
+                <option value="xl">Extra large (XL)</option>
             </select>
 			</p>
 			<p>

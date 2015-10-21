@@ -39,16 +39,7 @@
   			<input type="radio" name="op" id="Srta" value="Srta">
 			</p>
 			<p>
-			<label class="control-label">Estado Civil</label>
-        	<select class="form-control" name="size">
-        	 <option value=""></option>
-                <option value="solteiro">Solteiro(a)</option>
-                <option value="casado">Casado(a)</option>
-                <option value="divorciado">Divorciado(a)</option>
-                <option value="viuvo">Viúvo(a)</option>
-                <option value="separado">Separado(a)</option>
-                <option value="companheiro">Companheiro(a)</option>
-            </select>
+			<label>Estado Civil   combo</label>
 			</p>
 			<p>
 			<label>Emprego<input type="text" class="form-control" id="emprego" name="emprego" /></label>
