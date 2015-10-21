@@ -48,16 +48,9 @@ public class Login extends HttpServlet {
 		
 		if(login == true)
 		{
-			if(l.loginAdmin() == true)
-			{
-				RequestDispatcher view = request.getRequestDispatcher("Menu.jsp");
-				view.forward(request, response);
-			}
-			else
-			{
-				RequestDispatcher view = request.getRequestDispatcher("MenuPassagem.jsp");
-				view.forward(request, response);
-			}
+			//if
+			RequestDispatcher view = request.getRequestDispatcher("Menu.jsp");
+			view.forward(request, response);
 		}
 		else
 		{

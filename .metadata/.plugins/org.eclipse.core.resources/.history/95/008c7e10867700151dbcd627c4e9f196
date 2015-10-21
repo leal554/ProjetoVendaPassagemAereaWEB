@@ -14,8 +14,10 @@ public class LoginDAO
     private String senha;
     private boolean administrador;
 	
-    public boolean loginAdminDAO() 
+    public boolean administradorDao() 
     {
+    	boolean administrador = false;
+    	
         try 
         {
         	ConexaoDAO cdao = new ConexaoDAO();

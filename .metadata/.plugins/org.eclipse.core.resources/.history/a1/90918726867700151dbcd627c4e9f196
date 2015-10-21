@@ -21,7 +21,7 @@ public class LoginControle
 		boolean administrador = false;
 		
 		LoginDAO logadmdao = new LoginDAO();
-		administrador = logadmdao.loginAdminDAO();
+		administrador = logadmdao.administradorDao();
 		
 		return administrador;
 	}

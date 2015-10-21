@@ -15,14 +15,4 @@ public class LoginControle
    		
    		return verifica;
    	}
-	
-	public boolean loginAdmin()
-	{
-		boolean administrador = false;
-		
-		LoginDAO logadmdao = new LoginDAO();
-		administrador = logadmdao.loginAdminDAO();
-		
-		return administrador;
-	}
 }

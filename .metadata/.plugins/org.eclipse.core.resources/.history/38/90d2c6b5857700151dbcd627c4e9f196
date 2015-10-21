@@ -14,8 +14,10 @@ public class LoginDAO
     private String senha;
     private boolean administrador;
 	
-    public boolean loginAdminDAO() 
+    public boolean administradorDao() 
     {
+    	boolean administrador = false;
+    	
         try 
         {
         	ConexaoDAO cdao = new ConexaoDAO();
@@ -23,7 +25,6 @@ public class LoginDAO
             stm = con.createStatement();
             rs = stm.executeQuery("select * from cliente");
             int result = 0;
-            boolean admin = false;
             while (rs.next()) 
             {
                 result = 1;

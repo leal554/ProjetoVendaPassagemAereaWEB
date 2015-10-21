@@ -14,8 +14,10 @@ public class LoginDAO
     private String senha;
     private boolean administrador;
 	
-    public boolean loginAdminDAO() 
+    public boolean administradorDao() 
     {
+    	boolean login = false;
+    	
         try 
         {
         	ConexaoDAO cdao = new ConexaoDAO();
@@ -35,17 +37,17 @@ public class LoginDAO
             stm.close();
             rs.close();
             
-            if(admin == true)
+            if(this.email.equals(email) && this.senha.equals(senha))
             {
-            	administrador = true;
+            	login = true;
             }
         } 
         catch (SQLException e) 
         {
             //JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
-        	administrador = false;
+            login = false;
         }
-		return administrador;
+		return admin;
     }
     
 	public boolean loginClienteDAO(String email , String senha) 

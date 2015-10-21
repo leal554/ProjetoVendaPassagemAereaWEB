@@ -5,6 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+
 public class LoginDAO 
 {
 	private Statement stm;
@@ -14,40 +15,6 @@ public class LoginDAO
     private String senha;
     private boolean administrador;
 	
-    public boolean loginAdminDAO() 
-    {
-        try 
-        {
-        	ConexaoDAO cdao = new ConexaoDAO();
-        	con = cdao.Conectar();
-            stm = con.createStatement();
-            rs = stm.executeQuery("select * from cliente");
-            int result = 0;
-            boolean admin = false;
-            while (rs.next()) 
-            {
-                result = 1;
-                this.email = rs.getString("email");
-                this.senha = rs.getString("senha");
-                admin = rs.getBoolean("administrador");
-            }
-            con.close();
-            stm.close();
-            rs.close();
-            
-            if(admin == true)
-            {
-            	administrador = true;
-            }
-        } 
-        catch (SQLException e) 
-        {
-            //JOptionPane.showMessageDialog(null, bn.getString("dao.cliente.erro1") + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
-        	administrador = false;
-        }
-		return administrador;
-    }
-    
 	public boolean loginClienteDAO(String email , String senha) 
     {
     	boolean login = false;

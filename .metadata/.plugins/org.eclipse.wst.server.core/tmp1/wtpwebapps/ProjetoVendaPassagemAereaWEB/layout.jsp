@@ -32,7 +32,6 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
         
-            <li><a href="Menu.jsp">Menu</a></li>
             <li><a href="MenuPassagem.jsp">Menu Passagem</a></li>
             <li><a href="Checkin.jsp">Check-in</a></li>
           </ul>
