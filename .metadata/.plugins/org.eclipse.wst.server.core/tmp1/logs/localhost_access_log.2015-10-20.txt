@@ -149,3 +149,7 @@
 0:0:0:0:0:0:0:1 - - [20/Oct/2015:22:16:48 -0200] "GET /dist/js/bootstrap.min.js HTTP/1.1" 404 1042
 0:0:0:0:0:0:0:1 - - [20/Oct/2015:22:16:48 -0200] "GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1" 404 1076
 0:0:0:0:0:0:0:1 - - [20/Oct/2015:22:16:48 -0200] "GET /ProjetoVendaPassagemAereaWEB/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [20/Oct/2015:22:19:51 -0200] "GET /ProjetoVendaPassagemAereaWEB/CadastrarCliente.jsp HTTP/1.1" 200 4316
+0:0:0:0:0:0:0:1 - - [20/Oct/2015:22:19:51 -0200] "GET /ProjetoVendaPassagemAereaWEB/.bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1112
+0:0:0:0:0:0:0:1 - - [20/Oct/2015:22:19:51 -0200] "GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1" 404 1076
+0:0:0:0:0:0:0:1 - - [20/Oct/2015:22:19:51 -0200] "GET /dist/js/bootstrap.min.js HTTP/1.1" 404 1042

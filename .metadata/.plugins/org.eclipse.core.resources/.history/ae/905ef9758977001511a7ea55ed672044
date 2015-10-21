@@ -41,7 +41,7 @@
 			<p>
 			<label class="control-label">Estado Civil</label>
         	<select class="form-control" name="size">
-        	 <option value="null"></option>
+    
                 <option value="solteiro">Solteiro(a)</option>
                 <option value="casado">Casado(a)</option>
                 <option value="divorciado">Divorciado(a)</option>
