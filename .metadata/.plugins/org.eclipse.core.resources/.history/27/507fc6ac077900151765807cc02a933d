@@ -1,0 +1,106 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Escolher Voo Passagem</title>
+
+<jsp:include page="/layout.jsp" /><jsp:include page="/layout.jsp" />
+
+</head>
+<body>
+<form class="form-horizontal" role="form" method="post" action="EscolherVooPassagem.do">
+	<div class="container">
+		<div class="jumbotron">
+		<h1></h1>
+			<p>
+			<h2><label>Escolher Voo Passagem</label></h2>
+			<p>
+			<label class="control-label">Escolher Voo para combobox</label>
+        	<select class="form-control" name="size">
+        		<option value="null"></option>
+            </select>
+			</p>
+			<p>
+			<label class="control-label">Escolher Voo Partida</label>
+        	<select class="form-control" name="size">
+        		<option value="null"></option>
+            </select>
+			</p>
+			<p>
+			<label>Data da Partida<input type="text" class="form-control" id="emprego" name="emprego" /></label>
+			
+
+        <label class="col-xs-3 control-label">Date</label>
+        <div class="col-xs-5 date">
+            <div class="input-group input-append date" id="dateRangePicker">
+                <input type="text" class="form-control" name="date" />
+                <span class="input-group-addon add-on"><span class="glyphicon glyphicon-calendar"></span></span>
+            </div>
+        </div>
+  
+
+    <div class="form-group">
+        <div class="col-xs-5 col-xs-offset-3">
+            <button type="submit" class="btn btn-default">Validate</button>
+        </div>
+    </div>
+
+<script>
+$(document).ready(function() {
+    $('#dateRangePicker')
+        .datepicker({
+            format: 'mm/dd/yyyy',
+            startDate: '01/01/2010',
+            endDate: '12/30/2020'
+        })
+        .on('changeDate', function(e) {
+            // Revalidate the date field
+            $('#dateRangeForm').formValidation('revalidateField', 'date');
+        });
+
+    $('#dateRangeForm').formValidation({
+        framework: 'bootstrap',
+        icon: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+            date: {
+                validators: {
+                    notEmpty: {
+                        message: 'The date is required'
+                    },
+                    date: {
+                        format: 'MM/DD/YYYY',
+                        min: '01/01/2010',
+                        max: '12/30/2020',
+                        message: 'The date is not a valid'
+                    }
+                }
+            }
+        }
+    });
+});
+</script>
+			</p>
+			<p>
+			<label>Data da Chegada<input type="text" class="form-control" id="emprego" name="emprego" /></label>
+			</p>
+			<p>
+			<label>Hora da Partida<input type="text" class="form-control" id="emprego" name="emprego" /></label>
+			</p>
+			<p>
+			<label>Hora da Chegada<input type="text" class="form-control" id="emprego" name="emprego" /></label>
+			</p>
+			<p>
+			<input id="submit" name="submit" type="submit" value="Cadastrar Voo" class="btn btn-default">
+			<a class="btn btn-default" href="./LoginComprarPassagem.jsp" role="button">Voltar</a>
+			</p>
+		</div>
+	</div>
+	</form>
+</body>
+</html>

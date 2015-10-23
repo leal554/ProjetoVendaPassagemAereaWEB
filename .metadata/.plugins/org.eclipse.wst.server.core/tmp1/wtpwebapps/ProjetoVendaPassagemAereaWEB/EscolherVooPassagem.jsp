@@ -1,3 +1,4 @@
+<%@ page import="java.util.*"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -17,13 +18,24 @@
 			<p>
 			<h2><label>Escolher Voo Passagem</label></h2>
 			<p>
-			<label>Escolher Voo para combobox<input type="text" class="form-control" id="emprego" name="emprego" /></label>
+			<label class="control-label">Escolher Voo para combobox</label>
+        	<select class="form-control" name="size">
+        		<option value="null"></option>
+        		<h2>Resultado é: <b> 
+				<%double sb = (double) request.getAttribute("resultado");
+ 				out.println(sb);%></b> !!!!
+				</h2>
+            </select>
 			</p>
 			<p>
-			<label>Voo Partida SP/GRU ARRUMAR<input type="text" class="form-control" id="emprego" name="emprego" /></label>
+			<label class="control-label">Escolher Voo Partida</label>
+        	<select class="form-control" name="size">
+        		<option value="null"></option>
+            </select>
 			</p>
 			<p>
 			<label>Data da Partida<input type="text" class="form-control" id="emprego" name="emprego" /></label>
+			
 			</p>
 			<p>
 			<label>Data da Chegada<input type="text" class="form-control" id="emprego" name="emprego" /></label>

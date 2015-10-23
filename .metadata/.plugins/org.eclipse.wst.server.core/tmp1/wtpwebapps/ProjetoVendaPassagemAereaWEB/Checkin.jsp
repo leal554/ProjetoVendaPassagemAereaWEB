@@ -21,7 +21,6 @@
   			<input type="radio" name="op" id="sim" value="sim">
   			<label for="nao">Não</label>
   			<input type="radio" name="op" id="nao" value="nao">
-			</p>
 			<p>
 			<input id="submit" name="submit" type="submit" value="Emitir" class="btn btn-default">			
 			<a class="btn btn-default" href="./LoginCheckIn.jsp" role="button">Voltar</a>
