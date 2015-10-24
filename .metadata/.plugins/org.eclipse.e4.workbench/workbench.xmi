@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_m44zUHkVEeWIWMsDCWWgcQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_m44zUXkVEeWIWMsDCWWgcQ" bindingContexts="_m47223kVEeWIWMsDCWWgcQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EscolherVooPassagem.java&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/src/com/vpa/controle/EscolherVooPassagem.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/src/com/vpa/controle/EscolherVooPassagem.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;CadastrarCliente.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/CadastrarCliente.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/CadastrarCliente.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;EscolherVooPassagem.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/EscolherVooPassagem.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/EscolherVooPassagem.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;ConsultarCliente.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/ConsultarCliente.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/ConsultarCliente.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;ComprarPassagem.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/ComprarPassagem.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/ComprarPassagem.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;Checkin.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/Checkin.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/Checkin.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;CadastrarVoo.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/CadastrarVoo.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/CadastrarVoo.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;CadastrarAeronave.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/CadastrarAeronave.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/CadastrarAeronave.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;index.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/index.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/index.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;Bootstrap.class&quot; tooltip=&quot;org.apache.catalina.startup.Bootstrap&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=ProjetoVendaPassagemAereaWEB/C:\/eclipse\/apache-tomcat-8.0.27\/lib\/catalina.jar&amp;lt;org.apache.catalina.startup(Bootstrap.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ClienteDAO.java&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/src/com/vpa/data/ClienteDAO.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/src/com/vpa/data/ClienteDAO.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;layout.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/layout.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/layout.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;MenuPassagem.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/MenuPassagem.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/MenuPassagem.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EscolherVooPassagem.java&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/src/com/vpa/controle/EscolherVooPassagem.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/src/com/vpa/controle/EscolherVooPassagem.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CadastrarVoo.java&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/src/com/vpa/controle/CadastrarVoo.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/src/com/vpa/controle/CadastrarVoo.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;CadastrarVoo.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/CadastrarVoo.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/CadastrarVoo.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;CadastrarCliente.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/CadastrarCliente.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/CadastrarCliente.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;EscolherVooPassagem.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/EscolherVooPassagem.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/EscolherVooPassagem.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;ConsultarCliente.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/ConsultarCliente.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/ConsultarCliente.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;ComprarPassagem.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/ComprarPassagem.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/ComprarPassagem.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;Checkin.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/Checkin.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/Checkin.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;CadastrarAeronave.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/CadastrarAeronave.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/CadastrarAeronave.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;index.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/index.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/index.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;Bootstrap.class&quot; tooltip=&quot;org.apache.catalina.startup.Bootstrap&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=ProjetoVendaPassagemAereaWEB/C:\/eclipse\/apache-tomcat-8.0.27\/lib\/catalina.jar&amp;lt;org.apache.catalina.startup(Bootstrap.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ClienteDAO.java&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/src/com/vpa/data/ClienteDAO.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/src/com/vpa/data/ClienteDAO.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;layout.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/layout.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/layout.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;MenuPassagem.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/MenuPassagem.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/MenuPassagem.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_m44zUXkVEeWIWMsDCWWgcQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_m44zUnkVEeWIWMsDCWWgcQ" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1098" height="768">
@@ -86,7 +86,7 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_m45aZXkVEeWIWMsDCWWgcQ" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" ref="_m46B7XkVEeWIWMsDCWWgcQ"/>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_m45aZnkVEeWIWMsDCWWgcQ" elementId="bottomRight" visible="false" containerData="3000" selectedElement="_m45abnkVEeWIWMsDCWWgcQ">
+              <children xsi:type="basic:PartStack" xmi:id="_m45aZnkVEeWIWMsDCWWgcQ" elementId="bottomRight" visible="false" containerData="3000" selectedElement="_m45aaXkVEeWIWMsDCWWgcQ">
                 <tags>Minimized</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_m45aZ3kVEeWIWMsDCWWgcQ" elementId="org.eclipse.ui.views.AllMarkersView" ref="_m46Bq3kVEeWIWMsDCWWgcQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_m45aaHkVEeWIWMsDCWWgcQ" elementId="org.eclipse.ui.views.PropertySheet" toBeRendered="false" ref="_m46BrnkVEeWIWMsDCWWgcQ"/>
@@ -128,165 +128,17 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_m45bo3kVEeWIWMsDCWWgcQ" elementId="org.eclipse.ui.editorss" selectedElement="_m45bpHkVEeWIWMsDCWWgcQ">
-      <children xsi:type="basic:PartStack" xmi:id="_m45bpHkVEeWIWMsDCWWgcQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_m45bsHkVEeWIWMsDCWWgcQ">
+      <children xsi:type="basic:PartStack" xmi:id="_m45bpHkVEeWIWMsDCWWgcQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_cDw-oHnrEeWU8bwFe9XJBg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_m45bpXkVEeWIWMsDCWWgcQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CadastrarCliente.jsp" iconURI="platform:/plugin/org.eclipse.jst.jsp.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;CadastrarCliente.jsp&quot; partName=&quot;CadastrarCliente.jsp&quot; title=&quot;CadastrarCliente.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/CadastrarCliente.jsp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/CadastrarCliente.jsp&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1090&quot; selectionTopPixel=&quot;739&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jst.jsp.core.jspsource.source</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bpnkVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bp3kVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bqHkVEeWIWMsDCWWgcQ" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bqXkVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.EditorContext</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bqnkVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.RulerContext</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bq3kVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45brHkVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45brXkVEeWIWMsDCWWgcQ" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45brnkVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.EditorContext</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45br3kVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.RulerContext</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_m45bsHkVEeWIWMsDCWWgcQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="EscolherVooPassagem.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EscolherVooPassagem.java&quot; partName=&quot;EscolherVooPassagem.java&quot; title=&quot;EscolherVooPassagem.java&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/src/com/vpa/controle/EscolherVooPassagem.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ProjetoVendaPassagemAereaWEB/src/com/vpa/controle/EscolherVooPassagem.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2191&quot; selectionTopPixel=&quot;831&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_cDw-oHnrEeWU8bwFe9XJBg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="EscolherVooPassagem.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EscolherVooPassagem.java&quot; partName=&quot;EscolherVooPassagem.java&quot; title=&quot;EscolherVooPassagem.java&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/src/com/vpa/controle/EscolherVooPassagem.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ProjetoVendaPassagemAereaWEB/src/com/vpa/controle/EscolherVooPassagem.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;48&quot; selectionOffset=&quot;1930&quot; selectionTopPixel=&quot;518&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bsXkVEeWIWMsDCWWgcQ" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bsnkVEeWIWMsDCWWgcQ" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bs3kVEeWIWMsDCWWgcQ" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45btHkVEeWIWMsDCWWgcQ" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45btXkVEeWIWMsDCWWgcQ" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45btnkVEeWIWMsDCWWgcQ" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_m45bt3kVEeWIWMsDCWWgcQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="EscolherVooPassagem.jsp" iconURI="platform:/plugin/org.eclipse.jst.jsp.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;EscolherVooPassagem.jsp&quot; partName=&quot;EscolherVooPassagem.jsp&quot; title=&quot;EscolherVooPassagem.jsp&quot; tooltip=&quot;ProjetoVendaPassagemAereaWEB/WebContent/EscolherVooPassagem.jsp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ProjetoVendaPassagemAereaWEB/WebContent/EscolherVooPassagem.jsp&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;357&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jst.jsp.core.jspsource.source</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45buHkVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45buXkVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bunkVEeWIWMsDCWWgcQ" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bu3kVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.EditorContext</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bvHkVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.RulerContext</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bvXkVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bvnkVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bv3kVEeWIWMsDCWWgcQ" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m45bwHkVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.EditorContext</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_m46BiHkVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.RulerContext</tags>
-            <tags>popup:org.eclipse.jst.jsp.core.jspsource.source.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
         </children>
       </children>
     </sharedElements>
@@ -356,7 +208,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Server</tags>
-      <tags>highlighted</tags>
       <menus xmi:id="_m46BsnkVEeWIWMsDCWWgcQ" elementId="org.eclipse.wst.server.ui.ServersView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -381,7 +232,7 @@
         <tags>menuContribution:popup</tags>
         <tags>popup:org.eclipse.wst.server.ui.ServersView</tags>
       </menus>
-      <toolbar xmi:id="_m46BwXkVEeWIWMsDCWWgcQ" elementId="org.eclipse.wst.server.ui.ServersView" visible="false"/>
+      <toolbar xmi:id="_m46BwXkVEeWIWMsDCWWgcQ" elementId="org.eclipse.wst.server.ui.ServersView"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_m46ByXkVEeWIWMsDCWWgcQ" elementId="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Data Source Explorer" iconURI="platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif" tooltip="" closeable="true">
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; showCategories=&quot;true&quot;/>"/>
@@ -439,7 +290,7 @@
         <tags>menuContribution:popup</tags>
         <tags>popup:org.eclipse.debug.ui.ProcessConsoleType.#ContextMenu</tags>
       </menus>
-      <toolbar xmi:id="_m46B2HkVEeWIWMsDCWWgcQ" elementId="org.eclipse.ui.console.ConsoleView"/>
+      <toolbar xmi:id="_m46B2HkVEeWIWMsDCWWgcQ" elementId="org.eclipse.ui.console.ConsoleView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_m46B53kVEeWIWMsDCWWgcQ" elementId="org.eclipse.ui.views.BookmarkView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Bookmarks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.png" tooltip="" closeable="true">
       <tags>View</tags>
@@ -474,7 +325,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_m46B8XkVEeWIWMsDCWWgcQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_n6tnQHkWEeWRtOpzn5xINg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_m4-6z3kVEeWIWMsDCWWgcQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_gLh6sHnqEeWU8bwFe9XJBg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_m4-6z3kVEeWIWMsDCWWgcQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_m46B_nkVEeWIWMsDCWWgcQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -504,13 +355,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_m46oknkVEeWIWMsDCWWgcQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_n62KIHkWEeWRtOpzn5xINg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_m4-6eHkVEeWIWMsDCWWgcQ"/>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_m46onHkVEeWIWMsDCWWgcQ" elementId="org.eclipse.jst.jsp.core.jspsource.source">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_m46onnkVEeWIWMsDCWWgcQ" elementId="org.eclipse.ui.browser.editor">
-        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_gLjv4nnqEeWU8bwFe9XJBg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_m4-6eHkVEeWIWMsDCWWgcQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_m46on3kVEeWIWMsDCWWgcQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

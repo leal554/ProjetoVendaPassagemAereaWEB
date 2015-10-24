@@ -1,5 +1,0 @@
-127.0.0.1 - - [21/Oct/2015:23:59:04 -0200] "GET / HTTP/1.1" 404 994
-0:0:0:0:0:0:0:1 - - [21/Oct/2015:23:59:07 -0200] "GET /ProjetoVendaPassagemAereaWEB/ HTTP/1.1" 200 1213
-0:0:0:0:0:0:0:1 - - [21/Oct/2015:23:59:07 -0200] "GET /ProjetoVendaPassagemAereaWEB/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
-0:0:0:0:0:0:0:1 - - [21/Oct/2015:23:59:07 -0200] "GET /ProjetoVendaPassagemAereaWEB/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 -
-0:0:0:0:0:0:0:1 - - [21/Oct/2015:23:59:07 -0200] "GET /ProjetoVendaPassagemAereaWEB/.bootstrap/js/bootstrap.min.js HTTP/1.1" 404 1112

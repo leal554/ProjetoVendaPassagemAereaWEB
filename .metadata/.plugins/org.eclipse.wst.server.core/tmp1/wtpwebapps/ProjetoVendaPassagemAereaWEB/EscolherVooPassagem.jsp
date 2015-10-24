@@ -16,15 +16,11 @@
 		<div class="jumbotron">
 		<h1></h1>
 			<p>
-			<h2><label>Escolher Voo Passagem</label></h2>
+			<h2><label class="control-label">Escolher Voo Passagem</label></h2>
 			<p>
-			<label class="control-label">Escolher Voo para combobox</label>
+        	<label class="control-label">Escolher Voo</label>
         	<select class="form-control" name="size">
-        		<option value="null"></option>
-        		<h2>Resultado é: <b> 
-				<%double sb = (double) request.getAttribute("resultado");
- 				out.println(sb);%></b> !!!!
-				</h2>
+        	 <option value="null"></option>
             </select>
 			</p>
 			<p>
